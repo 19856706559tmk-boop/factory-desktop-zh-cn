@@ -1,0 +1,140 @@
+{
+  "desktop": {
+    "menu": {
+      "checkForUpdates": "检查更新...",
+      "newWindow": "新建窗口",
+      "settingsEllipsis": "设置...",
+      "settings": "设置",
+      "installCli": "安装 'droid' 命令...",
+      "uninstallCli": "卸载 'droid' 命令...",
+      "file": "文件",
+      "newSession": "新建会话",
+      "closeWindow": "关闭窗口",
+      "view": "视图",
+      "actualSize": "实际大小",
+      "zoomIn": "放大",
+      "zoomOut": "缩小",
+      "window": "窗口",
+      "close": "关闭",
+      "help": "帮助",
+      "checkNetwork": "检查网络...",
+      "reportBug": "报告问题...",
+      "aboutFactory": "关于 Factory",
+      "aboutMessage": "Factory {{version}}",
+      "aboutDetail": "版本: {{version}}\nElectron: {{electron}}\nChromium: {{chromium}}\nNode.js: {{node}}"
+    },
+    "contextMenu": {
+      "copyLink": "复制链接",
+      "copyImage": "复制图片",
+      "learnSpelling": "添加到词典",
+      "noGuessesFound": "无拼写建议"
+    },
+    "common": {
+      "ok": "确定",
+      "cancel": "取消"
+    },
+    "auth": {
+      "logoutIncomplete": "已清除保存的凭据，但本地守护进程可能仍在运行。请退出 Factory 并停止本地守护进程以完成退出登录。"
+    },
+    "quitGuard": {
+      "title": "退出 Factory？",
+      "quit": "退出 Factory",
+      "dontAskAgain": "不再询问",
+      "activeSessions_one": "此电脑上有 {{count}} 个正在运行的 Droid 会话。",
+      "activeSessions_other": "此电脑上有 {{count}} 个正在运行的 Droid 会话。",
+      "activeSessionsDetail": "如果现在退出，活动会话将被中断，所有正在进行的工作都将停止。",
+      "activeAutomations_one": "此电脑上有 {{count}} 个定时自动化任务正在运行。",
+      "activeAutomations_other": "此电脑上有 {{count}} 个定时自动化任务正在运行。",
+      "activeAutomationsDetail": "定时自动化任务仅在 Factory 打开时运行。如果现在退出，它们将在您重新打开应用前停止运行。"
+    },
+    "cliInstall": {
+      "install": "安装",
+      "skip": "跳过",
+      "dontAskAgain": "不再询问",
+      "promptTitle": "安装 Droid CLI",
+      "promptMessage": "是否将 Droid CLI 添加到终端？",
+      "promptDetail": "这会将 \"droid\" 命令添加到您的 PATH 环境变量中，以便您从任何终端窗口运行 Droid。\n\n您可以稍后随时在 Factory 菜单中更改此设置。",
+      "successTitle": "安装完成",
+      "successMessage": "Droid CLI 安装成功",
+      "successDetail": "现在可以在终端中使用 \"droid\" 命令了。",
+      "pathUpdated": "您的 PATH 已更新。您可能需要重启终端或打开新的终端窗口以使更改生效。",
+      "pathRequiredTitle": "需要配置 PATH",
+      "pathRequiredMessage": "Droid CLI 已安装，但需要更新 PATH",
+      "pathRequiredDetail": "CLI 已安装，但不在您的 PATH 中。\n\n{{instructions}}",
+      "errorTitle": "安装失败",
+      "errorMessage": "无法安装 Droid CLI",
+      "errorDetail": "{{error}}\n\n您可以参考文档手动安装 CLI。",
+      "viewDocumentation": "查看文档",
+      "removedTitle": "CLI 已移除",
+      "removedMessage": "Droid CLI 已移除",
+      "removedDetail": "\"droid\" 命令已移除。您可以随时从 Factory 菜单重新安装。",
+      "alreadyInstalledTitle": "已安装",
+      "alreadyInstalledMessage": "Droid CLI 已经安装",
+      "alreadyInstalledDetail": "终端中已可使用 \"droid\" 命令。"
+    },
+    "versionCheck": {
+      "title": "需要更新",
+      "message": "当前版本已不再受支持",
+      "detail": "您的版本 ({{version}}) 已不再受支持。\n\n请安装最新版本以继续使用。",
+      "checkForUpdates": "检查更新",
+      "quit": "退出"
+    },
+    "updater": {
+      "deploymentDisabled": "当前部署不支持 Factory 托管的自动更新。请联系管理员获取批准的安装程序。",
+      "configurationUnavailable": "由于无法读取部署配置，自动更新已禁用。请重启应用或联系管理员。",
+      "airgapDisabled": "启用离线隔离模式时无法使用更新。",
+      "enterpriseDisabled": "您的组织已禁用桌面端自动更新。",
+      "serverUnreachable": "无法连接到更新服务器，请重试。",
+      "cannotUpdateTitle": "无法更新",
+      "cannotUpdateMessage": "Factory 无法从当前位置更新。",
+      "moveToApplications": "请将 Factory.app 移动到“应用程序”文件夹，然后重新启动以启用自动更新。",
+      "msixPolicy": "Windows 无法更新 Factory。请检查您组织的部署策略或联系 IT 部门。请勿将文件移出 WindowsApps。",
+      "noWriteAccess": "Factory 对安装位置没有写入权限。请尝试从用户可写文件夹运行，或以管理员身份启动。"
+    },
+    "fileDialogs": {
+      "saveDownloadedFile": "保存下载的文件",
+      "selectWorkingDirectory": "选择工作目录",
+      "selectSoundFile": "选择音频文件",
+      "audioFilter": "音频",
+      "saveBugReport": "保存问题报告",
+      "zipArchiveFilter": "Zip 压缩包"
+    },
+    "remoteAccess": {
+      "deploymentDisabled": "当前部署不支持 Factory 托管的远程访问。请改用此设备上的本地会话。"
+    },
+    "diagnostics": {
+      "customerHostedSkipped": "已跳过，因为这是客户自托管部署。",
+      "customerConnectivity": "客户后端连接",
+      "customerConnectivityHint": "请检查客户后端、防火墙规则、代理配置和系统信任存储。"
+    }
+  },
+  "roleMenus": {
+    "about": "关于 Factory",
+    "services": "服务",
+    "hide": "隐藏 Factory",
+    "hideothers": "隐藏其他",
+    "unhide": "全部显示",
+    "quit": "退出 Factory",
+    "editmenu": "编辑",
+    "undo": "撤销",
+    "redo": "重做",
+    "cut": "剪切",
+    "copy": "复制",
+    "paste": "粘贴",
+    "pasteandmatchstyle": "粘贴并匹配样式",
+    "delete": "删除",
+    "selectall": "全选",
+    "reload": "重新加载",
+    "forcereload": "强制重新加载",
+    "toggledevtools": "切换开发者工具",
+    "resetzoom": "实际大小",
+    "zoomin": "放大",
+    "zoomout": "缩小",
+    "togglefullscreen": "切换全屏",
+    "windowmenu": "窗口",
+    "minimize": "最小化",
+    "zoom": "缩放",
+    "front": "前置全部窗口",
+    "close": "关闭窗口"
+  }
+}

@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+backup/
+.factory-zh/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.zh-tmp-*
+*.zh-restore-*
+*.zh-rollback-*
+*.zh-update-*

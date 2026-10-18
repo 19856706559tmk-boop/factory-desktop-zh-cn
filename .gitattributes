@@ -1,0 +1,6 @@
+# Normalize text files to LF in the repository for cross-platform clones
+* text=auto
+
+# Windows batch files must keep CRLF line endings to run reliably on every
+# cmd.exe version, so exclude them from normalization and store as-is
+*.bat -text
